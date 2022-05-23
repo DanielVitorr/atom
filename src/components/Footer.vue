@@ -1,5 +1,7 @@
 <template>
-    <p>footer</p>
+    <footer class="footer">
+        <p>ATOM - Activity and Task Organization Management &copy; 2022</p>
+    </footer>
 </template>
 
 <script>
