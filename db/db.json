@@ -1,0 +1,16 @@
+{
+    "prioridades": [
+        {
+            "id": 1,
+            "nivel": "Alto"
+        },
+        {
+            "id": 2,
+            "nivel": "Médio"
+        },
+        {
+            "id": 3,
+            "nivel": "Baixo"
+        }
+    ]
+}
