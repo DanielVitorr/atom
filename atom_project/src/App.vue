@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <InputText />
+      <InputText />
+      <InputText />
+      <InputText />
+      <InputSubmit />
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InputText from "./components/Inputs/InputText.vue";
+import InputSubmit from "./components/Inputs/InputSubmit.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    InputSubmit,
+    InputText
+}
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  .container input:nth-child(5) {
+    padding: 5px;
+    margin: 10px;
+  }
+  .container input:hover {
+    flex: 2;
+  }
 </style>
