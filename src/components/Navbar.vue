@@ -33,6 +33,7 @@ export default {
   
   #nav #logo-url {
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   #logo {
@@ -43,8 +44,26 @@ export default {
   #nav a {
     color: #000;
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     transition: 0.5s;
+  }
+
+  #nav a:nth-child(2) {
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    padding: 0 5px;
+    background-image: linear-gradient(to top right, #fff, transparent);
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
+  #nav a:nth-child(3) {
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    padding: 0 5px;
+    background-image: linear-gradient(to top right, #fff, transparent);
+    border-radius: 20px;
+    padding: 5px 10px;
   }
 
   #nav a:hover {

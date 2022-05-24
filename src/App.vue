@@ -40,9 +40,4 @@ data() {
     color: #222;
   }
 
-  body {
-    background-image: url('../public/img/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 </style>

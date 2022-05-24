@@ -1,8 +1,12 @@
-import { faMagnifyingGlass, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faPlay, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const icons = {
-    faMagnifyingGlass,
+    //user
     faUser,
+    //play
+    faPlay,
+    // pesquisa
+    faSearch
 }
 
 export default icons;
