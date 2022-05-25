@@ -1,12 +1,22 @@
 <template>
   <div class="main-container">
     <h1>Quadro de Atividades</h1>
-    <p>Testando o teste de testa tudo</p>
+    <FormQuadro />
   </div>
 </template>
 
+<script>
+import FormQuadro from '../components/FormQuadro.vue'
+
+export default {
+  components: {
+    FormQuadro,
+  }
+}
+</script>
+
 <style scoped>
   h1 {
-    color: black
+    color: #222;
   }
 </style>

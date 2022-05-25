@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
   #nav {
-    background-color: #d0d0d080;
+    background-image: linear-gradient(#04bb00, #003702);
     border-bottom: 1px solid #d0d0d0;
     padding: 0px 20px;
     display: flex;
@@ -62,8 +62,8 @@ export default {
   }
 
   #logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   #nav a {
