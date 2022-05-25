@@ -26,7 +26,7 @@ export default {
         padding-left: 35px;
         font-size: 15px;
         outline: none;
-        border: 1px solid var(--cinzento2);
+        border: 1px solid #d0d0d0;
     }
 
     .search .icon {

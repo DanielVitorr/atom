@@ -36,7 +36,7 @@ data() {
 
   h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #222;
   }
 

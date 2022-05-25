@@ -1,36 +1,61 @@
 <template>
     <div id="nav">
-        <router-link to="/" id="logo-url">
-            <img :src="logo" :alt="alt" id="logo">
-        </router-link>
-        <router-link to="/">Home</router-link> 
-        <router-link to="/quadro">Qurado de Atividades</router-link>
-        <Pesquisa />
+        <div class="nav-container">
+          <div class="nav-links">
+            <router-link to="/" id="logo-url">
+              <img :src="logo" :alt="alt" id="logo">
+            </router-link>
+            <router-link to="/">Home</router-link> 
+            <router-link to="/quadro">Qurado de Atividades</router-link>
+          </div>
+        </div>
+        <div class="pesquisa-user-container">
+          <div class="pesquisa">
+            <Pesquisa />
+          </div>
+          <User />
+        </div>
     </div>
 </template>
 
 <script>
 import Pesquisa from './Pesquisa.vue';
+import User from './User.vue';
 
 export default {
     name: "Navbar",
     props: ["logo", "alt"],
     components: {
-        Pesquisa
-    }
+    Pesquisa,
+    User
+}
 }
 </script>
 
-<style>
+<style scoped>
   #nav {
     background-color: #d0d0d080;
     border-bottom: 1px solid #d0d0d0;
     padding: 0px 20px;
     display: flex;
-    justify-content: start;
     align-items: center;
+    justify-content: space-between;
   }
-  
+
+  .nav-container {
+    display: block;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+  }
+
+  .pesquisa-user-container {
+    display: flex;
+  }
+
   #nav #logo-url {
     margin-left: 0;
     margin-bottom: 0;
