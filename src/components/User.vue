@@ -17,11 +17,11 @@ export default {
 
 <style scoped>
     .icon {
-        border-left: 1px solid #d0d0d0;
-        border-bottom: 1px solid #d0d0d0;
+        border: 1px solid #fff;
+        padding: 0 5px;
+        border-radius: 20px;
         padding: 5px 6px;
-        border-radius: 50%;
-        background-image: linear-gradient(to top right, #fff, transparent);
+        color: #fff;
         right: 0;
     }
 
