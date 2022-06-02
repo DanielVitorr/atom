@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
   #nav {
-    background-image: linear-gradient(#292f33, #292f33, #481db6);
+    background-image: linear-gradient(#292f33, #292f33, #292f33, #481db6);
     border-bottom: 1px solid #d0d0d0;
     padding: 0px 20px;
     display: flex;

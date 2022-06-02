@@ -1,4 +1,4 @@
-import { faUser, faPlay, faSearch, faGear, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faPlay, faSearch, faGear, faRightFromBracket, faAdd, faShareNodes } from '@fortawesome/free-solid-svg-icons'
 
 const icons = {
     //user
@@ -11,6 +11,10 @@ const icons = {
     faGear,
     //sair
     faRightFromBracket,
+    //add
+    faAdd,
+    //compartilhar
+    faShareNodes,
 }
 
 export default icons;
