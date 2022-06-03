@@ -5,8 +5,14 @@
             <router-link to="/" id="logo-url">
               <img src="../../public/img/logo-branca.png" :alt="alt" id="logo">
             </router-link>
-            <router-link to="/">Home</router-link> 
-            <router-link to="/quadro">Qurado de Atividades</router-link>
+            <router-link to="/">
+              <span><font-awesome-icon icon="house" /></span>
+              <span>Home</span>
+            </router-link>
+            <router-link to="/quadro">
+              <span><font-awesome-icon icon="chalkboard" /></span>
+              <span>Quadro</span>
+            </router-link>
           </div>
         </div>
         <div class="pesquisa-user-container">
@@ -69,7 +75,11 @@ export default {
   #nav a {
     text-decoration: none;
     margin: 5px;
-    transition: 0.5s;
+  }
+
+  #nav span:nth-child(2) {
+    position: relative;
+    margin-left: 5px;
   }
 
   #nav a:nth-child(2) {
