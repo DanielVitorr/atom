@@ -7,6 +7,24 @@
             </button>
         </div>
     </div>
+    <div class="container_favorito">
+        <div class="container_torre_1">
+            <div class="title_atividade">
+                <h1>Favoritos</h1>
+            </div>
+        </div>
+        <div class="container_torre_quadro">
+            <ul class="bord_pages">
+                <li class="bord_pages_list">
+                    <a href="">
+                        <div class="pages_style">
+                            <span class="title_pages">Projeto X</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="main-container">
         <div class="one-container">
             <h1 class="title">Teste</h1>
@@ -20,6 +38,7 @@
                 <p class="title-quadro">Quadro Teste</p>
             </div>
         </div>
+        
     </div>
 </template>
 
@@ -85,5 +104,12 @@ export default {
     .quadro {
         padding: 10px 15px;
         background: #ff5;
+    }
+
+    .container_favorito{
+        border: 1px solid #444;
+        background: #555;
+        margin: 15px;
+        box-shadow: 0 0 15px #444;
     }
 </style>
