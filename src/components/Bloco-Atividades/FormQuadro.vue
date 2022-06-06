@@ -1,30 +1,4 @@
 <template>
-    <div class="add-container"> 
-        <div class="button-add">
-            <button>
-                <span><font-awesome-icon icon="add" /> </span>
-                <span>Add Novo Quadro</span>
-            </button>
-        </div>
-    </div>
-    <div class="container_favorito">
-        <div class="container_torre_1">
-            <div class="title_atividade">
-                <h1>Favoritos</h1>
-            </div>
-        </div>
-        <div class="container_torre_quadro">
-            <ul class="bord_pages">
-                <li class="bord_pages_list">
-                    <a href="">
-                        <div class="pages_style">
-                            <span class="title_pages">Projeto X</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
     <div class="main-container">
         <div class="one-container">
             <h1 class="title">Teste</h1>
@@ -35,10 +9,17 @@
         </div>
         <div class="second-container">
             <div class="quadro">
-                <p class="title-quadro">Quadro Teste</p>
+                <ul class="bord_pages">
+                    <li class="bord_pages_list">
+                        <a href="">
+                            <div class="pages_style">
+                                <span class="title_pages">Projeto X</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
     </div>
 </template>
 
@@ -50,29 +31,9 @@ export default {
 
 <style scoped>
 
-    .add-container {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-
-    .button-add {
-        background-color: #555;
-        width: 250px;
-        height: 50px;
-    }
-
-    .button-add button {
-        width: 250px;
-        height: 50px;
-    }
-
-    .button-add span {
-        margin: 5px;
-    }
-
     .main-container {
         min-height: 200px;
+        margin: 50px;
     }
 
     .one-container {

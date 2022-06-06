@@ -1,17 +1,19 @@
 <template>
   <div class="main-container">
-    <h1>Quadro de Atividades</h1>
+    <AreaTrabalho />
     <FormQuadro />
   </div>
 </template>
 
 <script>
-import FormQuadro from '../components/FormQuadro.vue'
+import FormQuadro from '../components/Bloco-Atividades/FormQuadro.vue'
+import AreaTrabalho from '@/components/Bloco-Atividades/AreaTrabalho.vue'
 
 export default {
   components: {
     FormQuadro,
-  }
+    AreaTrabalho
+}
 }
 </script>
 
